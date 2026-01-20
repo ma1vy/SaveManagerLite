@@ -2,7 +2,7 @@
 extends EditorPlugin
 
 func _enter_tree():
-	add_autoload_singleton("SaveManager", "res://addons/SaveManager/SaveManager.gd")
+	add_autoload_singleton("SaveManager", "res://addons/SaveManagerLite/SaveManagerLite.gd")
 	print("✅ SaveManager registered")
 
 func _exit_tree():
